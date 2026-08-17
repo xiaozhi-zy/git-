@@ -1,0 +1,20 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Dependencies and builds
+node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
